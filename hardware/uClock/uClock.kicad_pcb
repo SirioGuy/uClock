@@ -3778,7 +3778,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/importaciones/0.96 OLED v3.step"
+		(model "C:/Users/Sirio/Documents/GitHub/uClock/hardware/etc/3d models/0.96 OLED v3.step"
 			(offset
 				(xyz -12.8 -3.8 11.65)
 			)
@@ -5180,7 +5180,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "C:/Users/Sirio/Documents/KiCad/9.0/3dmodels/ESP-M3.stp"
+		(model "C:/Users/Sirio/Documents/GitHub/uClock/hardware/etc/3d models/ESP-M3.stp"
 			(offset
 				(xyz 0 -2.25 0)
 			)
