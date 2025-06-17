@@ -4,8 +4,6 @@
 
 Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs with **NTP servers**, ensuring it's always perfectly on time.
 
----
-
 ## Features
 
 - Ultra low power design for extended battery life  
@@ -16,8 +14,6 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 - Compact, pocket-sized form factor with 3D-printable enclosure  
 - I²C expansion port for external sensors (temperature, humidity, etc.)
 
----
-
 ## Ideal Use Cases
 
 - Precision timekeeping for electronics workbenches  
@@ -25,8 +21,6 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 - Educational tool for embedded systems and networking  
 - Hackable clock for DIY and maker projects  
 - Simple, reliable gift for tech enthusiasts
-
----
 
 ## Technical Overview
 
@@ -37,20 +31,14 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 - **Charging:** USB (optional)  
 - **Enclosure:** 3D-printable STL available
 
----
-
 ## Getting Started
 
 The [`/firmware`](./firmware) folder contains the Arduino-compatible source code and setup instructions.
-
----
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).  
 You are free to use, modify, and sell μClock-based products — just keep it open source.
-
----
 
 ## Contribute
 
