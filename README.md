@@ -11,4 +11,6 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 - Time zone selection
 - Open source and customizable
 
+![μClock Banner](uClock.jpg)
+
 > Work in progress — more updates coming soon.
