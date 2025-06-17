@@ -4,8 +4,6 @@
 
 Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs with **NTP servers**, ensuring you're always on time — down to the second.
 
----
-
 ## ✨ Why μClock?
 
 - 🔋 **Incredible Battery Life**  
@@ -26,16 +24,12 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 - 🔌 **Rechargeable or Replaceable Battery**  
   Use a Li-ion, LiPo, or coin cell. USB charging optional.
 
----
-
 ## 🔧 Ideal For:
 
 - 🧪 Electronics workbenches  
 - 📶 IoT and embedded systems demos  
 - 🕹️ Hacker/maker projects  
 - 🎁 A perfect gift for time geeks
-
----
 
 ## 💡 Ready to Customize
 
