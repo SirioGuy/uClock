@@ -35,7 +35,5 @@ Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs wi
 
 μClock features an **I²C expansion port**, letting you add sensors like temperature, humidity, light, or anything your project needs.
 
----
-
 Built with passion, designed for precision.  
 **μClock — time, perfectly engineered.**
