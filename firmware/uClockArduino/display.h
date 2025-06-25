@@ -7,6 +7,8 @@ extern U8G2_SSD1306_128X64_NONAME_1_HW_I2C oled;
 extern char secondChar[3];
 extern char clockChar[9];
 
+extern char timezoneChar[4];
+
 extern float batteryLevel;
 
 extern const char* TimeZoneNames[];

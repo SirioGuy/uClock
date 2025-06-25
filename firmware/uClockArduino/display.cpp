@@ -3,6 +3,8 @@
 
 
 void display(){
+  oled.setPowerSave(0);
+
   oled.firstPage();
 
   do {
@@ -36,7 +38,7 @@ void displaySeconds(){
 
 void displayTimeZone(){
   oled.setFont(u8g2_font_7x14B_tr);
-  oled.drawStr(105, 24, "UTC");
+  oled.drawStr(105, 24, timezoneChar);
 }
 
 void displayDate(){

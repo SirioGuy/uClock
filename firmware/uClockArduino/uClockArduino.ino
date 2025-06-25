@@ -1,8 +1,9 @@
 #include "display.h"
+#include "ClickButton.h"
 
 U8G2_SSD1306_128X64_NONAME_1_HW_I2C oled(U8G2_R0, U8X8_PIN_NONE);
 
-#define BUTTON 2
+const int buttonPin = 2;
 
 // ~ VARIABLES ~
 
@@ -19,6 +20,8 @@ int second = 10;
 char secondChar[3];
 char clockChar[9];
 
+char timezoneChar[4];
+
 float batteryLevel = 90;
 
 int displayTimeout = 5000;
@@ -26,11 +29,15 @@ int displayTimeout = 5000;
 
 // ~ Inicialización ~
 
+ClickButton button(buttonPin, LOW, CLICKBTN_PULLUP);
+
 void setup() {
+  Serial.begin(115200);
+
   oled.begin();
 
-  pinMode(BUTTON, INPUT);
-
+  button.longClickTime = 300;
+  button.debounceTime = 10;
 }
 
 
@@ -39,14 +46,39 @@ void setup() {
 void loop() {
 
   now = millis();
-  
+  button.Update();
+
   if(now - lastClock >= 1000){
+    runClock();
+    batteryLevel -= 2;
+    lastClock = now;
+  }
+  if(button.clicks == 1 && displayOn == false) {
+    displayOn = true;
+    lastPulse = now;
+  }
+
+  if(displayOn){
+    display();
+  }
+
+  if (now - lastPulse >= displayTimeout && displayOn == true) {
+    oled.setPowerSave(1);
+    displayOn = false;
+  }
+
+
+
+
+
+
+  /*if(now - lastClock >= 1000){
     runClock();
     batteryLevel -= 5;
     lastClock = now;
   }
 
-  if (digitalRead(BUTTON)) {
+  if (button.clicks == 0) {
     lastPulse = now;
     displayOn = true;
     oled.setPowerSave(0);
@@ -60,7 +92,7 @@ void loop() {
       oled.setPowerSave(1);
       displayOn = false;
     }
-  }  
+  }*/
 }
 
 void runClock(){
@@ -80,3 +112,7 @@ void runClock(){
   sprintf(clockChar, "%02d:%02d", hour, minute);
   sprintf(secondChar, "%02d", second);
 }
+
+
+
+
