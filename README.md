@@ -13,6 +13,6 @@ Powered by the **ESP32-C3**, μClock includes an ultra-precise real-time clock t
 - Time zone selection
 - Open source and customizable
 
-![μClock Banner](uClock.png)
+![μClock Banner](uClock - copia.png)
 
 > Work in progress — Hardware revision under validation.
