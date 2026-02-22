@@ -1,16 +1,18 @@
 # μClock
 
-**μClock** is a sleek, ultra-precise handheld digital clock — built for makers, engineers, and time enthusiasts who value accuracy, simplicity, and reliability.
+**μClock** is a sleek, ultra-precise handheld digital clock — built for makers, engineers, and anyone who values accuracy, simplicity, and reliability.
 
-Powered by the **ESP8285**, μClock connects to Wi-Fi and automatically syncs with **NTP servers**, ensuring it's always perfectly on time.
+Powered by the **ESP32-C3**, μClock includes an ultra-precise real-time clock that automatically corrects itself via **NTP servers**, ensuring it's always perfectly on time.
 
 ## Features
 
-- ESP8285 + 0.96" OLED
+- ESP32-C3 + 1.3" OLED
+- Ultra-low power design
+- High-precision clock (±1 PPM)
 - NTP sync over Wi-Fi
 - Time zone selection
 - Open source and customizable
 
 ![μClock Banner](uClock.jpg)
 
-> Work in progress — more updates coming soon.
+> Work in progress — Hardware revision under validation.
