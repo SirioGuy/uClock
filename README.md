@@ -15,8 +15,8 @@ Powered by the **ESP32-C3**, μClock includes an ultra-precise real-time clock t
 
 ![μClock Banner](etc/uClock.png)
 
-## PCB Overview
+> Work in progress — Hardware revision under validation.
+
+### PCB Overview
 
 ![μClock PCB](etc/uClock-PCB.png)
-
-> Work in progress — Hardware revision under validation.
