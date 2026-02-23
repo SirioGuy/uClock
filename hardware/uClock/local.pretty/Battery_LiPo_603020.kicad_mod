@@ -1,0 +1,165 @@
+(footprint "Battery_LiPo_603020"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "55048f82-f367-4723-bcc7-f52ac60f4e0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Battery LiPo 603020"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c19aa6d0-93f5-4c12-8ba8-d7ea680115df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "696bbc3e-6053-4407-82e5-ddd051f7e6c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3eb8cf74-18bf-4dfd-8d33-4783221669ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -15 9)
+		(end -15 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "79eb15b3-fead-4b94-af43-779e3930e095")
+	)
+	(fp_line
+		(start -14 -10)
+		(end 14 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d3afb7df-8c40-4288-84ef-7d68aed598ac")
+	)
+	(fp_line
+		(start 14 10)
+		(end -14 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "45a300b4-d559-4d9f-b877-7915599fb59f")
+	)
+	(fp_line
+		(start 15 -9)
+		(end 15 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "595ff571-cc9d-4385-989c-a2836455f562")
+	)
+	(fp_arc
+		(start -15 -9)
+		(mid -14.707107 -9.707107)
+		(end -14 -10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c1275398-eca8-49b0-9272-7d418f8c858c")
+	)
+	(fp_arc
+		(start -14 10)
+		(mid -14.707107 9.707107)
+		(end -15 9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e5522f11-b5d4-4970-aacb-5fd512ab2bf8")
+	)
+	(fp_arc
+		(start 14 -10)
+		(mid 14.707107 -9.707107)
+		(end 15 -9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d38b0778-e07e-4d13-9547-9c1f9f388145")
+	)
+	(fp_arc
+		(start 15 9)
+		(mid 14.707107 9.707107)
+		(end 14 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "10878b17-f1ad-45c7-af2d-13abe8bc9c67")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4c0263bf-b92b-418c-8146-6dc695766a45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/Li Bat 503035P.step"
+		(offset
+			(xyz 14.5 0 3.1)
+		)
+		(scale
+			(xyz 0.64 1.2 0.82)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

@@ -1,0 +1,203 @@
+(footprint "JST-ZH-02AW-P=1.5-H3.6"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-25℃~+85℃ 1 1.5mm 100V 1A 1x2P 2 2P 3.6mm 4.5mm Brass PBT Right Angle Tin UL94V-0 ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS")
+	(tags "JST ZH 2 1.5 CONNECTOR")
+	(property "Reference" "REF**"
+		(at 0 1.65 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b3b63109-7dab-4572-aae5-0fdb5748a0c8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JST-ZH-02AW-P=1.5-H:3.6"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e5a1c72-c6cd-43a7-9d4c-14040b916bf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd0ddd37-4144-445c-8bf3-d556335d6782")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " -25℃~+85℃ 1 1.5mm 100V 1A 1x2P 2 2P 3.6mm 4.5mm Brass PBT Right Angle Tin UL94V-0 ZH Push-Pull,P=1.5mm Wire To Board Connector ROHS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d49bab3-1b91-4bc4-96af-767a82109aa9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB" "C722934"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3838be92-0ac8-4fb9-8663-8699d23787b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.25 -0.75)
+		(end 2.25 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1153e70a-c586-43b4-b9f8-e8f5137a6e59")
+	)
+	(fp_line
+		(start -2.25 0)
+		(end -2.25 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "74df6059-6bd6-42da-9548-1d0c45bef12c")
+	)
+	(fp_line
+		(start -2.25 0)
+		(end -1.6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c912a5c8-7e8b-457a-a0a6-5e15594e9c1d")
+	)
+	(fp_line
+		(start 2.25 -4.5)
+		(end -2.25 -4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d047f73b-91e8-4cf4-aa99-de907d9dee9e")
+	)
+	(fp_line
+		(start 2.25 -4.5)
+		(end 2.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3b62de3-a4af-4d15-a76a-bcae9030acbc")
+	)
+	(fp_line
+		(start 2.25 -1)
+		(end -2.25 -1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c956786e-54d3-42cc-92f3-de7369d6e770")
+	)
+	(fp_line
+		(start 2.25 0)
+		(end 1.6 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55570f1d-0b21-4bb4-9423-dfca3c2240ee")
+	)
+	(fp_rect
+		(start -1.85 -2.3)
+		(end -1.35 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fafef621-31ed-4eed-92e9-94c694877658")
+	)
+	(fp_rect
+		(start 1.35 -2.3)
+		(end 1.85 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cae708a1-8b90-435a-a339-19e6964678c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7c0433b-474c-4528-937d-e47477ce43a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.75 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88d9bb63-837a-4028-a0e1-c884e7e761c9")
+	)
+	(pad "2" thru_hole circle
+		(at 0.75 0)
+		(size 1.2 1.2)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b309df7-b57a-48d0-818b-09d2446d54e2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/JST 2pin rightangle.stp"
+		(offset
+			(xyz -2 4.6 0)
+		)
+		(scale
+			(xyz 0.7 0.73 0.7)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
